@@ -8,6 +8,7 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp_panther.mk)
+include device/google/pantah/device-aosp.mk
 
 # AncientOS Xtras
 ANCIENT_GAPPS := true
