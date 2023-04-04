@@ -22,7 +22,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_cheetah.mk \
     $(LOCAL_DIR)/factory_cheetah.mk \
     $(LOCAL_DIR)/aosp_panther.mk \
-    $(LOCAL_DIR)/factory_panther.mk
+    $(LOCAL_DIR)/factory_panther.mk \
+    $(LOCAL_DIR)/ancient_cheetah.mk \
+    $(LOCAL_DIR)/ancient_panther.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_cloudripper-userdebug \
